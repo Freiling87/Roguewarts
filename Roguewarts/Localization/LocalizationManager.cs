@@ -33,7 +33,7 @@ namespace Roguewarts.Localization
 		{
 			IDeserializer deserializer = new DeserializerBuilder().Build();
 
-			string configBasePath = Application.dataPath + "/../BepInEx/config/";
+			string configBasePath = Application.dataPath + "/../StreetsOfRogue_Data/Localization/";
 			AbilityLocalization = ReadFromFile<L_Ability>(deserializer, configBasePath + "Roguewarts_Abilities.yaml");
 			TraitsLocalization = ReadFromFile<L_Trait>(deserializer, configBasePath + "Roguewarts_Traits.yaml");
 		}
