@@ -9,7 +9,7 @@ namespace Roguewarts.Extensions
 	{
 		public static AbilityBuilder Localize<AbilityType>(this AbilityBuilder builder) where AbilityType : CustomAbility
 		{
-			Dictionary<LanguageCode, AbilityLocalization.LocalizedAbility> localizedAbilities = LocalizationManager.Instance.AbilityLocalization?.GetLocalization<AbilityType>();
+			Dictionary<LanguageCode, L_Ability.LocalizedAbility> localizedAbilities = LocalizationManager.Instance.AbilityLocalization?.GetLocalization<AbilityType>();
 			if (localizedAbilities != null)
 			{
 				builder.WithName(new CustomNameInfo(localizedAbilities.ToDictionary(entry => entry.Key, entry => entry.Value?.Name)));

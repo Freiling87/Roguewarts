@@ -9,7 +9,7 @@ namespace Roguewarts.Extensions
 	{
 		public static TraitBuilder Localize<TraitType>(this TraitBuilder builder) where TraitType : CustomTrait
 		{
-			Dictionary<LanguageCode, TraitLocalization.LocalizedTrait> localizedTraits = LocalizationManager.Instance.TraitsLocalization?.GetLocalization<TraitType>();
+			Dictionary<LanguageCode, L_Trait.LocalizedTrait> localizedTraits = LocalizationManager.Instance.TraitsLocalization?.GetLocalization<TraitType>();
 			if (localizedTraits != null)
 			{
 				builder.WithName(new CustomNameInfo(localizedTraits.ToDictionary(entry => entry.Key, entry => entry.Value?.Name)));
