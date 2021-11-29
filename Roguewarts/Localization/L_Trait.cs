@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace Roguewarts.Localization
 {
-	public class TraitLocalization
+	public class L_Trait
 	{
 		[UsedImplicitly] public Dictionary<string, Dictionary<LanguageCode, LocalizedTrait>> traits;
 

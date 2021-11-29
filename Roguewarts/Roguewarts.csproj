@@ -104,9 +104,9 @@
     <Compile Include="Extensions\E_AbilityBuilder.cs" />
     <Compile Include="Extensions\E_TraitBuilder.cs" />
     <Compile Include="Extensions\E_TraitUnlock.cs" />
-    <Compile Include="Localization\AbilityLocalization.cs" />
+    <Compile Include="Localization\L_Ability.cs" />
     <Compile Include="Localization\LocalizationManager.cs" />
-    <Compile Include="Localization\TraitLocalization.cs" />
+    <Compile Include="Localization\L_Trait.cs" />
     <Compile Include="NameManager.cs" />
     <Compile Include="Patches\P_LoadLevel.cs" />
     <Compile Include="Patches\P_PlayfieldObject.cs" />
@@ -136,6 +136,7 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="Documentation\0.1 Scratchpad" />
+    <None Include="Localization\Roguewarts_Abilities.yaml" />
     <None Include="Localization\Roguewarts_Traits.yaml" />
     <None Include="packages.config" />
     <None Include="Properties\Resources\ChronomanticDilation.bin" />
