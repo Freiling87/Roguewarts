@@ -30,8 +30,7 @@ namespace Roguewarts.Traits.Casting
 			TraitManager.RegisterTrait<ManaBattery_1>(new TraitInfo(name, traitBuilder)
 					.WithUpgrade(typeof(ManaBattery_2))
 					.WithConflictGroup(
-							ETraitConflictGroup.Archmage_WildCasting,
-							ETraitConflictGroup.MagicCasting
+							ETraitConflictGroup.Archmage_ManaBattery
 					)
 			);
 		}

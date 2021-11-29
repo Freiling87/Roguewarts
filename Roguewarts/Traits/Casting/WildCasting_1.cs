@@ -30,8 +30,8 @@ namespace Roguewarts.Traits.Casting
 			TraitManager.RegisterTrait<WildCasting_1>(new TraitInfo(name, traitBuilder)
 					.WithUpgrade(typeof(WildCasting_2))
 					.WithConflictGroup(
-							ETraitConflictGroup.Archmage_WildCasting,
-							ETraitConflictGroup.MagicCasting
+							ETraitConflictGroup.CastingStyle,
+							ETraitConflictGroup.Archmage_WildCasting
 					)
 			);
 		}

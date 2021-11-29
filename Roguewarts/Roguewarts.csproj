@@ -187,11 +187,11 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>set modDir="C:\Program Files (x86)\Steam\steamapps\common\Streets of Rogue\BepInEx\plugins"
-set locDir="C:\Program Files (x86)\Steam\steamapps\common\Streets of Rogue\StreetsOfRogue_Data\Localization"
-
 copy /y "Roguewarts.dll" %25modDir%25
 copy /y "BTHarmonyUtils.dll" %25modDir%25
 copy /y "RogueLibsCore.dll" %25modDir%25
+
+set locDir="C:\Program Files (x86)\Steam\steamapps\common\Streets of Rogue\StreetsOfRogue_Data\Localization"
 copy /y "$(ProjectDir)\Localization\Roguewarts_Abilities.yaml" %25locDir%25  
 copy /y "$(ProjectDir)\Localization\Roguewarts_Traits.yaml" %25locDir%25  
 

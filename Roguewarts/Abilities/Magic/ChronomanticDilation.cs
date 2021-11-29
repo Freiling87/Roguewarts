@@ -19,16 +19,6 @@ namespace Roguewarts.Abilities.Magic
 		public static void Setup()
 		{
 			RogueLibs.CreateCustomAbility<ChronomanticDilation>()
-				.WithDescription(new CustomNameInfo
-				{
-					[LanguageCode.English] = "Cast: Toggle to slow down everything but yourself. Toggle to deactivate.\n\nMiscast: Speed up everything but yourself.",
-					[LanguageCode.Russian] = "Заклинание: Нажмите кнопку Супер-способности, чтобы замедлить всё, кроме себя. Нажмите повторно, чтобы выключить замедление.\n\nНеудача: Ускоряет всё кроме вас.",
-				})
-				.WithName(new CustomNameInfo
-				{
-					[LanguageCode.English] = "Chronomantic Dilation",
-					[LanguageCode.Russian] = "Хрономантический сдвиг",
-				})
 				.WithSprite(Properties.Resources.ChronomanticDilation)
 				.WithUnlock(new AbilityUnlock
 				{

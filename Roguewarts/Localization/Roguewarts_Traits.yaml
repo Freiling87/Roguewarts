@@ -1,19 +1,90 @@
 ﻿traits:
-    BlessedStrikes:
+# CASTING
+    Archmage:
         English:
-            Name: Blessed Strikes
+            Name: Archmage
             Desc: |-
-                - You can hit Ghosts with your Unarmed attacks
-                - Melee damage to all Undead increased 50%
+                - "Godlike magic powers. No miscast, infinite mana, and zero calories."
         Russian: 
-            Name: Blessed Strikes
-            Desc: |-
-                - You can hit Ghosts with your Unarmed attacks
-                - Melee damage to all Undead increased 50%
+            Name: ""
+            Desc: ""
+    FocusedCasting_1:
+        English:
+            Name: Focused Casting
+            Desc: |- 
+                - ""
+        Russian: 
+            Name: ""
+            Desc: ""
+    FocusedCasting_2:
+        English:
+            Name: Focused Casting +
+            Desc: |- 
+                - ""
+        Russian: 
+            Name: ""
+            Desc: ""
+    MagicTraining_1:
+        English:
+            Name: Magic Training
+            Desc: |- 
+                - ""
+        Russian: 
+            Name: ""
+            Desc: ""
+    MagicTraining_2:
+        English:
+            Name: Magic Training +
+            Desc: |- 
+                - ""
+        Russian: 
+            Name: ""
+            Desc: ""
+    ManaBattery_1:
+        English:
+            Name: Mana Battery
+            Desc: |- 
+                - ""
+        Russian: 
+            Name: ""
+            Desc: ""
+    ManaBattery_2:
+        English:
+            Name: Mana Battery +
+            Desc: Test
+        Russian: 
+            Name: ""
+            Desc: ""
+    WildCasting_1:
+        English:
+            Name: Wild Casting
+            Desc: |- 
+                - ""
+        Russian: 
+            Name: ""
+            Desc: ""
+    WildCasting_2:
+        English:
+            Name: Wild Casting +
+            Desc: |- 
+                - ""
+        Russian: 
+            Name: ""
+            Desc: ""
+# CHRONOMANTIC DILATION
     RATS_1:
         English:
             Name: RATS
-            Desc: Test
+            Desc: |- 
+                - ""
+        Russian: 
+            Name: ""
+            Desc: ""
+    RATS_2:
+        English:
+            Name: RATS +
+            Desc: |- 
+                - ""
         Russian: 
             Name: ""
             Desc: ""

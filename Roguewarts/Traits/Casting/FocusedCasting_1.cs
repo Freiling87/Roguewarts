@@ -30,8 +30,9 @@ namespace Roguewarts.Traits.Casting
 			TraitManager.RegisterTrait<FocusedCasting_1>(new TraitInfo(name, traitBuilder)
 					.WithUpgrade(typeof(FocusedCasting_2))
 					.WithConflictGroup(
-							ETraitConflictGroup.MagicCasting
-					)
+							ETraitConflictGroup.CastingStyle,
+							ETraitConflictGroup.Archmage_FocusedCasting
+						)
 			);
 		}
 

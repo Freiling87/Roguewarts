@@ -29,6 +29,7 @@ namespace Roguewarts.Traits.Casting
 
 			TraitManager.RegisterTrait<ManaBattery_2>(new TraitInfo(name, traitBuilder)
 					.WithConflictGroup(
+						ETraitConflictGroup.Archmage_ManaBattery
 					)
 			);
 		}

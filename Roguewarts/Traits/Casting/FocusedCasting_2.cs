@@ -29,8 +29,7 @@ namespace Roguewarts.Traits.Casting
 
 			TraitManager.RegisterTrait<FocusedCasting_2>(new TraitInfo(name, traitBuilder)
 					.WithConflictGroup(
-							ETraitConflictGroup.Archmage_WildCasting,
-							ETraitConflictGroup.MagicCasting
+							ETraitConflictGroup.Archmage_FocusedCasting
 					)
 			);
 		}

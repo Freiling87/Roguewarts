@@ -20,16 +20,6 @@ namespace Roguewarts.Abilities.Magic
 		public static void Setup()
 		{
 			RogueLibs.CreateCustomAbility<PyromanticJet>()
-				.WithDescription(new CustomNameInfo
-				{
-					[LanguageCode.English] = "Cast: Hold to shoot flames.\n\nMiscast: Excrete Napalm from all your pores. What did you eat??",
-					[LanguageCode.Russian] = "Заклинание: Удерживайте кнопку Супер-способности, чтобы выстрелить пламенем.\n\nНеудача: Из вас течёт Напалм.. что вы ели??",
-				})
-				.WithName(new CustomNameInfo
-				{
-					[LanguageCode.English] = "Pyromantic Jet",
-					[LanguageCode.Russian] = "Огненная струя",
-				})
 				.WithSprite(Properties.Resources.PyromanticJet)
 				.WithUnlock(new AbilityUnlock
 				{

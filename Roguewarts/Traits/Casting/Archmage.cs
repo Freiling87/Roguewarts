@@ -29,8 +29,10 @@ namespace Roguewarts.Traits.Casting
 
 			TraitManager.RegisterTrait<Archmage>(new TraitInfo(name, traitBuilder)
 					.WithConflictGroup(
-							ETraitConflictGroup.Archmage_WildCasting,
-							ETraitConflictGroup.MagicCasting
+							ETraitConflictGroup.Archmage_FocusedCasting,
+							ETraitConflictGroup.Archmage_MagicTraining,
+							ETraitConflictGroup.Archmage_ManaBattery,
+							ETraitConflictGroup.Archmage_WildCasting
 					)
 			);
 		}

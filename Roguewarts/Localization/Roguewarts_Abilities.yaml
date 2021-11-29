@@ -1,12 +1,44 @@
 ﻿abilities:
-    BlessedStrikes:
+    ChronomanticDilation:
         English:
-            Name: Blessed Strikes
+            Name: Chronomantic Dilation
             Desc: |-
-                - You can hit Ghosts with your Unarmed attacks
-                - Melee damage to all Undead increased 50%
+                - "Activate: Toggle to slow down everything but yourself."
+                - 
+                - "Deactivate: Return to normal Timescale before you run out of mana, or risk a miscast."
+                - 
+                - "Miscast: Speed up everything but yourself."
         Russian: 
-            Name: Blessed Strikes
+            Name: Хрономантический сдвиг
             Desc: |-
-                - You can hit Ghosts with your Unarmed attacks
-                - Melee damage to all Undead increased 50%
+                - "Заклинание: Нажмите кнопку Супер-способности, чтобы замедлить всё, кроме себя. Нажмите повторно, чтобы выключить замедление."
+                - 
+                - "Неудача: Ускоряет всё кроме вас."
+    PyromanticJet:
+        English:
+            Name: Pyromantic Jet
+            Desc: |-
+                - "Hold: Shoot flames toward cursor."
+                - 
+                - "Miscast: Excrete Napalm from all your pores. What did you eat??"
+        Russian:
+            Name: Огненная струя
+            Desc: |-
+                - "Заклинание: Удерживайте кнопку Супер-способности, чтобы выстрелить пламенем."
+                - 
+                - "Неудача: Из вас течёт Напалм.. что вы ели??"
+    TelemanticBlink:
+        English:
+            Name: Telemantic Blink
+            Desc: |-
+                - "Cast: Hold to charge, point cursor at destination. Charge increases accuracy and chance of miscast."
+                - 
+                - "Release: Teleport to indicated location."
+                - 
+                - "Miscast: Have a small stroke, with varying effects."
+        Russian:
+            Name: Телепортация
+            Desc: |-
+                - "Заклинание: Удерживайте кнопку Супер-способности, наведите курсор на место в которое хотите переместится. Удерживание кнопки Супер-способности повышает точность, но и шанс на неудачный каст."
+                - 
+                - "Неудача: Небольшой удар."

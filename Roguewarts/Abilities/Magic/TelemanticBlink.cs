@@ -26,16 +26,6 @@ namespace Roguewarts.Abilities.Magic
 		public static void Setup()
 		{
 			RogueLibs.CreateCustomAbility<TelemanticBlink>()
-				.WithDescription(new CustomNameInfo
-				{
-					[LanguageCode.English] = "Cast: Hold to charge, point cursor at destination. Charge increases accuracy and chance of miscast.\n\nMiscast: Have a small stroke, with varying effects.",
-					[LanguageCode.Russian] = "Заклинание: Удерживайте кнопку Супер-способности, наведите курсор на место в которое хотите переместится. Удерживание кнопки Супер-способности повышает точность, но и шанс на неудачный каст.\n\nНеудача: Небольшой удар.",
-				})
-				.WithName(new CustomNameInfo
-				{
-					[LanguageCode.English] = "Telemantic Blink",
-					[LanguageCode.Russian] = "Телепортация",
-				})
 				.WithSprite(Properties.Resources.TelemanticBlink)
 				.WithUnlock(new AbilityUnlock
 				{

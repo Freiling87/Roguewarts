@@ -33,7 +33,7 @@ namespace Roguewarts.Traits.ChronomanticDilation
 		
 		public static float GetLuckMultiplier(string luckType, Agent agent)
 		{
-			if (agent.HasTrait<RATS_1>()
+			if (agent.HasTrait<RATS_2>()
 					&& (luckType == "CritChance"
 							|| luckType == nameof(StatusEffectNameDB.rowIds.ChanceToSlowEnemies)
 							|| luckType == nameof(StatusEffectNameDB.rowIds.ChanceAttacksDoZeroDamage)
