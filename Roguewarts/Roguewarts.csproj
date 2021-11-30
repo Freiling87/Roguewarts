@@ -92,7 +92,8 @@
       <HintPath>Libraries\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="YamlDotNet, Version=11.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
-      <HintPath>..\packages\YamlDotNet.11.2.1\lib\net45\YamlDotNet.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\YamlDotNet.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -139,7 +140,6 @@
     <None Include="Documentation\0.1 Scratchpad" />
     <None Include="Localization\Roguewarts_Abilities.yaml" />
     <None Include="Localization\Roguewarts_Traits.yaml" />
-    <None Include="packages.config" />
     <None Include="Properties\Resources\ChronomanticDilation.bin" />
     <None Include="Properties\Resources\CryomanticBolt.bin" />
     <None Include="Properties\Resources\ElectromanticDischarge.bin" />
@@ -191,6 +191,7 @@
 copy /y "Roguewarts.dll" %25modDir%25
 copy /y "BTHarmonyUtils.dll" %25modDir%25
 copy /y "RogueLibsCore.dll" %25modDir%25
+copy /y "YamlDotNet.dll" %25modDir%25
 
 set locDir="C:\Program Files (x86)\Steam\steamapps\common\Streets of Rogue\StreetsOfRogue_Data\Localization"
 copy /y "$(ProjectDir)\Localization\Roguewarts_Abilities.yaml" %25locDir%25  
