@@ -96,6 +96,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abilities\EAbilityConflictGroup.cs" />
     <Compile Include="Abilities\Magic\ChronomanticDilation.cs" />
     <Compile Include="Abilities\AbilityManager.cs" />
     <Compile Include="Abilities\Magic\PyromanticJet.cs" />

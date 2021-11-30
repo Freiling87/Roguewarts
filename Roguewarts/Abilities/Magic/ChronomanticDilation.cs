@@ -27,6 +27,11 @@ namespace Roguewarts.Abilities.Magic
 					IsAvailableInCC = true,
 					UnlockCost = 10,
 				});
+
+			AbilityManager.RegisterAbility<ChronomanticDilation>(new TraitInfo(name, abilityBuilder)
+					.WithConflictGroup(
+					)
+			);
 		}
 		public override void OnAdded()
 		{

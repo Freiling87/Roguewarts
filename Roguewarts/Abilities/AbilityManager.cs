@@ -90,5 +90,39 @@ namespace Roguewarts.Abilities
 			_ = RogueLibs.CreateCustomName(cDialogue.MSA_TB_Recharge3, t, new CustomNameInfo("Where do you want me?"));
 			_ = RogueLibs.CreateCustomName(cDialogue.MSA_TB_Recharge4, t, new CustomNameInfo("Let's get outta here."));
 		}
+
+		public static void RegisterAbility<AbilityType>(AbilityInfo info)
+		{
+			info.FinalizeInfo();
+			registeredAbilities.Add(typeof(AbilityType), info);
+			RegisterAbilityUpgrades<AbilityType>(info);
+			RegisterAbilityConflictGroup<AbilityType>(info);
+		}
+
+		private static void RegisterAbilityUpgrades<AbilityType>(AbilityInfo info)
+		{
+			if (info.Upgrade != null)
+			{
+				if (!upgradeDowngradeDict.ContainsKey(info.Upgrade))
+				{
+					upgradeDowngradeDict[info.Upgrade] = new List<Type>();
+				}
+
+				upgradeDowngradeDict[info.Upgrade].Add(typeof(AbilityType));
+			}
+		}
+
+		private static void RegisterAbilityConflictGroup<AbilityType>(AbilityInfo info)
+		{
+			foreach (EAbilityConflictGroup conflictGroup in info.ConflictGroups)
+			{
+				if (!conflictGroupDict.ContainsKey(conflictGroup))
+				{
+					conflictGroupDict[conflictGroup] = new List<Type>();
+				}
+
+				conflictGroupDict[conflictGroup].Add(typeof(AbilityType));
+			}
+		}
 	}
 }
