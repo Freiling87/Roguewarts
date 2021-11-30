@@ -3,8 +3,10 @@
     Archmage:
         English:
             Name: Archmage
-            Desc: |-
-                - "Godlike magic powers. No miscast, infinite mana, and zero calories."
+            Desc: |
+                Godlike magic powers. No miscast, infinite mana, and zero calories.
+
+                Multi-line test
         Russian: 
             Name: ""
             Desc: ""
